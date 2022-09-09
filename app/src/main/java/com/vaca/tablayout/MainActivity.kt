@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.tabs.TabLayout
+import com.vaca.tablayout.Ex.singleClick
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,6 +38,14 @@ class MainActivity : AppCompatActivity() {
 
             override fun onTabReselected(tab: TabLayout.Tab) {}
         })
+
+
+        val gaga:TextView=findViewById(R.id.dada)
+        gaga.singleClick{
+            Log.e("fuck","aaa")
+        }
+
+
     }
 
 

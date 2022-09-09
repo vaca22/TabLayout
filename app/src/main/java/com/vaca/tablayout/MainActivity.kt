@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         val gaga:TextView=findViewById(R.id.dada)
         gaga.singleClick{
-            Log.e("fuck","aaa")
+            Log.e("fuck", "aaa")
         }
 
 
